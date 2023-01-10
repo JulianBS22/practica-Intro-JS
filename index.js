@@ -28,10 +28,11 @@ let board = []
 for (let i = 0; i < ROWS; i++) {
     let row = []
     for (let j = 0; j < COLS; j++) {
-        row[j] = '| |'
-            console.log(j,i)
-    }
+        row[j] = '[  ] '
+            //console.log(j,i)
+    } console.log(row.join(''))
     board [i] = row
+   
 }
 for (let i = 0; i < ROWS; i++) {
     console.log (board[i])
