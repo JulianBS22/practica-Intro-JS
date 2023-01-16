@@ -13,11 +13,19 @@ function printBoard(board) {
   for (let i = 0; i < ROWS; i++) {
     let row = [];
     for (let j = 0; j < COLS; j++) {
+<<<<<<< HEAD
       row[j] = "🌠";
     }
     console.log(row.join(""));
     board[i] = row;
   }
+=======
+        row[j] = '[  ] '
+            //console.log(j,i)
+    } console.log(row.join(''))
+    board [i] = row
+   
+>>>>>>> 7adae9f6414448cdf6d79954725fe01d06024571
 }
 function printBoard(board) {
   let shipLocations = [];
